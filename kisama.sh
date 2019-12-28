@@ -68,7 +68,7 @@ echo -e $red"   ====================== Tool Lest =======================    ";
         echo
         echo "[1] ✔ Email-Attack	         [2] ✔ Bruteforce Instagram	[3] ✔ CamHack"
         echo "[4] ✔ The-Harvester	         [5] ✔ Admin-Control-panel	[6] X SocialEnginering"
-	echo "[7] ✔ Denial-of-Service		 [8] ✔ Phishing"
+	echo "[7] ✔ Denial-of-Service		 [8] ✔ Phishing			[7] ✔ Fake MSG "
         read -p "Select>: " option
         echo
         
@@ -176,6 +176,18 @@ echo -e $red"   ====================== Tool Lest =======================    ";
                 read -p "pess any key to return ..."
                 clear
 		;;
+           9)  echo "Fake MSG"
+		echo "loading......"
+		sleep 2
+		firefox https://www.kusms.com/index.php
+                echo ""
+                echo -e $red "########## Finish  ############"
+                echo
+                echo -e $green "【!】Return To The Main Menu【!】"
+                read -p "pess any key to return ..."
+                clear
+		;;
+	   
             q)  echo -e $yellow " Thanks For Using My Tools Good Bye  {Zer0iv}  !!"
                 echo
                 exit 0 
